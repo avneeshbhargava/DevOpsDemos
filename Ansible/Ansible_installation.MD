@@ -9,6 +9,17 @@ Ansible is an open source automation platform. It is very, very simple to setup 
 1. An AWS EC2 instance 
 
 ### Installation steps:
+****************************************************************************
+Latest Releases via Apt (Ubuntu)
+Ubuntu builds are available in a PPA here.
+
+To configure the PPA on your machine and install ansible run these commands:
+
+$ sudo apt update
+$ sudo apt install software-properties-common
+$ sudo apt-add-repository --yes --update ppa:ansible/ansible
+$ sudo apt install ansible
+***************************************************************************
 
 Add a EPEL (Extra Packages for Enterprise Linux)third party repository to get packages for Ansible 
 ```sh 
